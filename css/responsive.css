@@ -1,0 +1,357 @@
+
+
+@media only screen and (min-width: 1300px){
+	
+	.main-header .nav-container {
+		min-width:1300px;
+	}
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+	
+	.main-header .nav-container {
+		min-width:100%;
+	}
+}
+
+
+
+@media only screen and (max-width:992px) {
+	
+	.main-header nav ul.navbar-nav li.nav-item a.nav-link {
+	color:#092369;
+	
+}
+	.main-header nav ul.navbar-nav .btn-link {
+    /* width: 2.5rem; */
+    /* height: 1rem; */
+    background: white;
+    border-radius: 15px;
+    padding-left: 0rem;
+    padding-right: 1.7rem;
+    /* margin-bottom: 5rem; */
+    color: #14215e;
+}
+	.main-header nav ul.navbar-nav .btn-link:hover {
+    /* width: 2.5rem; */
+    /* height: 1rem; */
+    background: white;
+    border-radius: 15px;
+    padding-left: 0rem;
+    padding-right: 1.7rem;
+    /* margin-bottom: 5rem; */
+    color: #2870DB;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	
+	
+	
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	
+	.main-header {    
+    background-position: 28%;   
+    padding: 2rem 0rem;
+    padding-bottom: 0rem;
+}
+	
+	
+	
+	
+	.banner .banner-info {
+    margin-top: 0rem;
+    padding: 1.8rem 0rem 5rem 0rem;
+}
+	.banner .banner-info h1 {
+	margin-bottom: 1rem;
+    font-weight: 700;
+    color: #1c2056;
+    line-height: 2.5rem;
+    font-size: 2rem;
+}
+
+	.banner .banner-info p {
+    margin-bottom: 2rem;
+    color: #8b879d;
+    font-size: 0.8rem;
+    line-height: 2rem;
+}
+
+
+	/* main section responsive code goes here */
+	.main-section {
+    padding: 0rem 0rem 0rem 0rem;
+	
+	}
+	.social-work {
+    padding-top: 1rem;
+	}
+	
+	.social-work .sw-c .sw-c-info h5 {
+   
+    padding-bottom: 1rem;
+}
+
+.social-work .sw-c .sw-c-info p {   
+    font-size: 0.8rem;    
+}
+
+.main-section {   
+    background-position: 51% 12%;
+    background-size: 100%;
+}
+	.support .facility {
+    padding-top: 3rem;
+}
+
+	.faci-res{
+		margin-bottom:1rem;
+		/* border-bottom:1px solid #999; */
+	}
+	
+	/* trail section responsive code goes here */
+	
+	.trail-section .heading {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+	.trail-section .trail-card .card {
+    margin-bottom: 30px;
+}
+
+	.main-footer {
+   
+    padding-top: 50px;
+    background-position: 50% 50%;
+}
+
+.contact-form .contact-form-inner .contact-info h3 {
+    font-size: 27px;
+    margin-bottom: 2.5rem;
+    color: #fff;
+}
+
+	.contact-form .contact-form-inner .contact-info input {   
+    margin-bottom: 1.2rem;   
+}
+.contact-form .btn-link {   
+    margin-top: 1rem;
+   
+}
+
+/* footer below code goes here */
+.footer-below {
+    margin-top: 1rem;
+}
+
+.footer-below .f-card h5 {
+    margin-bottom: 2rem;
+}
+
+.footer-below .f-card {
+    margin-bottom: 1rem;
+    /* border-bottom: 1px solid #fff; */
+}
+
+.social .social-icon {
+    display: flex;
+justify-content:flex-start;}
+
+	.social .social-icon .icons {
+    
+    margin-right: 1rem;
+}
+	
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+	
+	.main-header {    
+    background-position: 30%;   
+    padding: 2rem 0rem;
+    padding-bottom: 0rem;
+}
+	
+	
+	
+	
+	.banner .banner-info {
+    margin-top: 0rem;
+    padding: 1rem 0rem 5rem 0rem;
+}
+	.banner .banner-info h1 {
+	margin-bottom: 1rem;
+    font-weight: 700;
+    color: #1c2056;
+    line-height: 2.5rem;
+    font-size: 2rem;
+}
+
+	.banner .banner-info p {
+    margin-bottom: 2rem;
+    color: #8b879d;
+    font-size: 0.8rem;
+    line-height: 2rem;
+}
+
+
+	/* main section responsive code goes here */
+	.main-section {
+    padding: 0rem 0rem 0rem 0rem;
+	
+	}
+	.social-work {
+    padding-top: 1rem;
+	}
+	
+	.social-work .sw-c .sw-c-info h5 {
+   
+    padding-bottom: 1rem;
+}
+
+.social-work .sw-c .sw-c-info p {   
+    font-size: 0.8rem;    
+}
+
+.main-section {   
+    background-position: 51% 12%;
+    background-size: 100%;
+}
+	.support .facility {
+    padding-top: 3rem;
+}
+
+	.faci-res{
+		margin-bottom:1rem;
+		border-bottom:1px solid #999;
+	}
+	
+	/* trail section responsive code goes here */
+	
+	.trail-section .heading {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+	.trail-section .trail-card .card {
+    margin-bottom: 30px;
+}
+
+	.main-footer {
+   
+    padding-top: 50px;
+    background-position: 50% 50%;
+}
+
+.contact-form .contact-form-inner .contact-info h3 {
+    font-size: 27px;
+    margin-bottom: 2.5rem;
+    color: #fff;
+}
+
+	.contact-form .contact-form-inner .contact-info input {   
+    margin-bottom: 1.2rem;   
+}
+.contact-form .btn-link {   
+    margin-top: 1rem;
+   
+}
+
+/* footer below code goes here */
+.footer-below {
+    margin-top: 1rem;
+}
+
+.footer-below .f-card h5 {
+    margin-bottom: 2rem;
+}
+
+.footer-below .f-card {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #fff;
+}
+
+.social .social-icon {
+    display: flex;
+justify-content:flex-start;}
+
+	.social .social-icon .icons {
+    
+    margin-right: 1rem;
+}
+}
+
+
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+
+
+
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	
+	
+}
